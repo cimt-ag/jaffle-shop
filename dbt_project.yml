@@ -28,6 +28,8 @@ seeds:
   jaffle_shop:
     +schema: raw
 
+seed-paths: ["seeds", "jaffle-data"]
+
 models:
   jaffle_shop:
     staging:
